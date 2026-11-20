@@ -1,0 +1,4 @@
+﻿# This repo is mostly resource files (language JSON), so the language bar needs a hint.
+*.gradle linguist-language=Groovy
+gradlew linguist-language=Shell
+gradlew.bat linguist-language=Batchfile
