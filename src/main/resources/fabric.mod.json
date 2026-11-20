@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "province-translation",
+  "version": "${version}",
+  "name": "Province Translation",
+  "description": "Extra interface languages for Province: Traditional Chinese, French, Russian, Spanish, Japanese and Korean. Install it and Province follows the game language; without it Province ships with Simplified Chinese and English.",
+  "authors": [
+    "Shuuki_"
+  ],
+  "license": "MIT",
+  "icon": "assets/mc-province/icon.png",
+  "environment": "client",
+  "depends": {
+    "mc-province": ">=0.2.4"
+  }
+}

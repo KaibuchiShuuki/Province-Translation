@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.mcprovince'
+version = project.translation_version
+
+base {
+    archivesName = 'ProvinceTranslation'
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        expand version: project.version
+    }
+}
+
+jar {
+    // 纯资源包：不带任何类，也别让 Gradle 把空目录打进去。
+    includeEmptyDirs = false
+}
