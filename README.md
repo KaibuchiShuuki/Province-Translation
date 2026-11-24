@@ -1,5 +1,7 @@
 # Province Translation
 
+<img src="logo.png" alt="Province Translation" width="120" align="right">
+
 > **English** is below, [中文在 §中文](#中文) — both halves describe the same mod.
 > 本文件英文在前、中文在后（[跳到中文](#中文)），两半讲的是同一个模组。
 
